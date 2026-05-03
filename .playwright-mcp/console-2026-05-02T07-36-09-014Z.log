@@ -1,0 +1,99 @@
+[      94ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[     263ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[     357ms] Error: ./app/(dashboard)/dashboard/settings/page.tsx:43:1
+Expected '}', got '<eof>'
+  41 |     toast.success("프로필이 저장되었습니다")
+  42 |   }
+> 43 |
+     | ^
+
+Parsing ecmascript source code failed
+
+
+    at <unknown> (Error: ./app/(dashboard)/dashboard/settings/page.tsx:43:1)
+    at Object.getCompilationErrors (file://C:\Users\KSG\workspaces\claude-nextjs-starters\node_modules\next\dist\server\dev\hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file://C:\Users\KSG\workspaces\claude-nextjs-starters\node_modules\next\dist\server\lib\dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file://C:\Users\KSG\workspaces\claude-nextjs-starters\node_modules\next\dist\server\dev\next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file://C:\Users\KSG\workspaces\claude-nextjs-starters\node_modules\next\dist\server\dev\next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file://C:\Users\KSG\workspaces\claude-nextjs-starters\node_modules\next\dist\server\base-server.js:1745:26)
+[     354ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[     362ms] [ERROR] ./app/(dashboard)/dashboard/settings/page.tsx:43:1
+Expected '}', got '<eof>'
+  41 |     toast.success("프로필이 저장되었습니다")
+  42 |   }
+> 43 |
+     | ^
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[     408ms] [ERROR] ./app/(dashboard)/dashboard/settings/page.tsx:43:1
+Expected '}', got '<eof>'
+  41 |     toast.success("프로필이 저장되었습니다")
+  42 |   }
+> 43 |
+     | ^
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[     524ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[     586ms] [ERROR] ./app/(dashboard)/dashboard/settings/page.tsx:43:1
+Expected '}', got '<eof>'
+  41 |     toast.success("프로필이 저장되었습니다")
+  42 |   }
+> 43 |
+     | ^
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[     646ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   25934ms] [ERROR] ./app/(dashboard)/dashboard/settings/page.tsx:43:1
+Expected '}', got '<eof>'
+  41 |     toast.success("프로필이 저장되었습니다")
+  42 |   }
+> 43 |
+     | ^
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   26018ms] [ERROR] ./app/(dashboard)/dashboard/settings/page.tsx:43:1
+Expected '}', got '<eof>'
+  41 |     toast.success("프로필이 저장되었습니다")
+  42 |   }
+> 43 |
+     | ^
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   26046ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   32153ms] [ERROR] ./app/(dashboard)/dashboard/settings/page.tsx:43:1
+Expected '}', got '<eof>'
+  41 |     toast.success("프로필이 저장되었습니다")
+  42 |   }
+> 43 |
+     | ^
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   32153ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   39384ms] [ERROR] ./app/(dashboard)/dashboard/settings/page.tsx:43:1
+Expected '}', got '<eof>'
+  41 |     toast.success("프로필이 저장되었습니다")
+  42 |   }
+> 43 |
+     | ^
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   39434ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   97048ms] [ERROR] ./app/(dashboard)/dashboard/settings/page.tsx:42:1
+Expected '}', got '<eof>'
+  40 |     toast.success("프로필이 저장되었습니다")
+  41 |   }
+> 42 |
+     | ^
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   97053ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  104565ms] [ERROR] ./app/(dashboard)/dashboard/settings/page.tsx:42:1
+Expected '}', got '<eof>'
+  40 |     toast.success("프로필이 저장되었습니다")
+  41 |   }
+> 42 |
+     | ^
+
+Parsing ecmascript source code failed @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  104661ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  105398ms] [LOG] [Fast Refresh] done in 828ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226

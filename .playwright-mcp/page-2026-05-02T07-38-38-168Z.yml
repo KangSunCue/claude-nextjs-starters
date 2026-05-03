@@ -1,0 +1,78 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e4]:
+      - link "NextStarter" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e8]
+        - generic [ref=e10]: NextStarter
+      - navigation [ref=e11]:
+        - generic [ref=e12]:
+          - link "대시보드" [ref=e13] [cursor=pointer]:
+            - /url: /dashboard
+            - img [ref=e14]
+            - generic [ref=e19]: 대시보드
+          - link "설정" [ref=e20] [cursor=pointer]:
+            - /url: /dashboard/settings
+            - img [ref=e21]
+            - generic [ref=e24]: 설정
+      - generic [ref=e25]:
+        - button "홍 홍길동 user@example.com" [ref=e26]:
+          - generic [ref=e28]: 홍
+          - generic [ref=e29]:
+            - generic [ref=e30]: 홍길동
+            - generic [ref=e31]: user@example.com
+          - img
+        - button "사이드바 접기" [ref=e32]:
+          - img
+          - generic [ref=e33]: 사이드바 접기
+    - generic [ref=e34]:
+      - banner [ref=e35]:
+        - navigation "breadcrumb" [ref=e37]:
+          - list [ref=e38]:
+            - listitem [ref=e40]:
+              - link "대시보드" [ref=e41] [cursor=pointer]:
+                - /url: /dashboard
+            - generic [ref=e42]:
+              - listitem [ref=e43]:
+                - img [ref=e44]
+              - listitem [ref=e46]:
+                - link "설정" [disabled] [ref=e47]
+        - generic [ref=e48]:
+          - button [disabled]
+      - main [ref=e49]:
+        - generic [ref=e50]:
+          - generic [ref=e52]:
+            - heading "설정" [level=1] [ref=e53]
+            - paragraph [ref=e54]: 계정 및 앱 환경설정을 관리하세요
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - generic [ref=e57]: 프로필
+              - generic [ref=e58]: 공개 프로필 정보를 수정하세요
+            - generic [ref=e60]:
+              - generic [ref=e61]:
+                - generic [ref=e62]: 이름
+                - textbox "이름" [ref=e63]:
+                  - /placeholder: 홍길동
+                  - text: 홍길동
+              - generic [ref=e64]:
+                - generic [ref=e65]: 이메일
+                - textbox "이메일" [ref=e66]:
+                  - /placeholder: you@example.com
+                  - text: user@example.com
+              - generic [ref=e67]:
+                - generic [ref=e68]: 소개
+                - textbox "소개" [ref=e69]:
+                  - /placeholder: 간단한 자기소개를 입력하세요
+                - paragraph [ref=e70]: 160자 이하로 입력하세요
+              - button "저장" [ref=e71]
+          - generic [ref=e72]:
+            - generic [ref=e73]:
+              - generic [ref=e74]: 테마
+              - generic [ref=e75]: 앱의 색상 테마를 선택하세요
+            - generic [ref=e77]:
+              - button "라이트" [ref=e78]
+              - button "다크" [ref=e79]
+              - button "시스템" [ref=e80]
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e86] [cursor=pointer]:
+    - img [ref=e87]

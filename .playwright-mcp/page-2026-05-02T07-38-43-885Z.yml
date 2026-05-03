@@ -1,0 +1,139 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "NextStarter" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e7]
+          - generic [ref=e9]: NextStarter
+        - navigation [ref=e10]:
+          - link "기능" [ref=e11] [cursor=pointer]:
+            - /url: "#features"
+          - link "기술 스택" [ref=e12] [cursor=pointer]:
+            - /url: "#tech-stack"
+          - link "대시보드" [ref=e13] [cursor=pointer]:
+            - /url: /dashboard
+        - generic [ref=e14]:
+          - button [disabled]
+          - link "로그인" [ref=e15] [cursor=pointer]:
+            - /url: /login
+          - link "시작하기" [ref=e16] [cursor=pointer]:
+            - /url: /register
+    - main [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e19]: Next.js 16 + React 19
+        - heading "모던 웹 개발을 위한 프로덕션 레디 스타터킷" [level=1] [ref=e21]
+        - paragraph [ref=e22]: 모던 웹 개발을 위한 프로덕션 레디 Next.js 스타터킷. 검증된 라이브러리와 최신 기술 스택으로 아이디어를 빠르게 제품으로 만들어보세요.
+        - generic [ref=e23]:
+          - link "대시보드 보기" [ref=e24] [cursor=pointer]:
+            - /url: /dashboard
+            - text: 대시보드 보기
+            - img
+          - link "시작하기" [ref=e25] [cursor=pointer]:
+            - /url: /login
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - heading "핵심 기능" [level=2] [ref=e29]
+          - paragraph [ref=e30]: 프로덕션에 필요한 모든 것이 준비되어 있습니다
+        - generic [ref=e31]:
+          - generic [ref=e33]:
+            - img [ref=e35]
+            - generic [ref=e39]: App Router
+            - generic [ref=e40]: Next.js 15+ App Router 기반으로 RSC, 스트리밍, 레이아웃을 완벽하게 지원합니다.
+          - generic [ref=e42]:
+            - img [ref=e44]
+            - generic [ref=e48]: TypeScript
+            - generic [ref=e49]: 엄격한 타입 체크로 런타임 에러를 줄이고 개발 생산성을 높입니다.
+          - generic [ref=e51]:
+            - img [ref=e53]
+            - generic [ref=e59]: TailwindCSS v4
+            - generic [ref=e60]: CSS-first 설정 방식의 최신 Tailwind로 빠르고 일관된 스타일링이 가능합니다.
+          - generic [ref=e62]:
+            - img [ref=e64]
+            - generic [ref=e66]: ShadcnUI
+            - generic [ref=e67]: 접근성을 고려한 Radix UI 기반 컴포넌트로 즉시 사용 가능한 UI를 제공합니다.
+          - generic [ref=e69]:
+            - img [ref=e71]
+            - generic [ref=e73]: 다크 모드
+            - generic [ref=e74]: Light / Dark / System 세 가지 테마를 next-themes로 zero-flicker 구현합니다.
+          - generic [ref=e76]:
+            - img [ref=e78]
+            - generic [ref=e80]: 폼 유효성 검사
+            - generic [ref=e81]: react-hook-form + zod로 타입 안전한 폼 관리와 실시간 유효성 검사를 제공합니다.
+      - generic [ref=e83]:
+        - generic [ref=e84]:
+          - heading "기술 스택" [level=2] [ref=e85]
+          - paragraph [ref=e86]: 검증된 라이브러리만 엄선했습니다
+        - generic [ref=e87]:
+          - generic [ref=e88]: Next.js 16
+          - generic [ref=e89]: React 19
+          - generic [ref=e90]: TypeScript
+          - generic [ref=e91]: TailwindCSS v4
+          - generic [ref=e92]: ShadcnUI
+          - generic [ref=e93]: lucide-react
+          - generic [ref=e94]: react-hook-form
+          - generic [ref=e95]: zod
+          - generic [ref=e96]: TanStack Query
+          - generic [ref=e97]: sonner
+          - generic [ref=e98]: next-themes
+          - generic [ref=e99]: date-fns
+      - generic [ref=e101]:
+        - heading "지금 바로 시작하세요" [level=2] [ref=e102]
+        - paragraph [ref=e103]: NextStarter으로 개발 시간을 절반으로 줄이세요. 복잡한 초기 설정 없이 비즈니스 로직에 집중할 수 있습니다.
+        - generic [ref=e104]:
+          - link "무료로 시작하기" [ref=e105] [cursor=pointer]:
+            - /url: /register
+            - text: 무료로 시작하기
+            - img
+          - link "GitHub" [ref=e106] [cursor=pointer]:
+            - /url: https://github.com
+            - img
+            - text: GitHub
+    - contentinfo [ref=e107]:
+      - generic [ref=e108]:
+        - generic [ref=e109]:
+          - generic [ref=e110]:
+            - link "NextStarter" [ref=e111] [cursor=pointer]:
+              - /url: /
+              - img [ref=e113]
+              - generic [ref=e115]: NextStarter
+            - paragraph [ref=e116]: 모던 웹 개발을 위한 프로덕션 레디 스타터킷
+          - generic [ref=e117]:
+            - heading "제품" [level=3] [ref=e118]
+            - list [ref=e119]:
+              - listitem [ref=e120]:
+                - link "기능" [ref=e121] [cursor=pointer]:
+                  - /url: "#features"
+              - listitem [ref=e122]:
+                - link "기술 스택" [ref=e123] [cursor=pointer]:
+                  - /url: "#tech-stack"
+              - listitem [ref=e124]:
+                - link "대시보드" [ref=e125] [cursor=pointer]:
+                  - /url: /dashboard
+          - generic [ref=e126]:
+            - heading "계정" [level=3] [ref=e127]
+            - list [ref=e128]:
+              - listitem [ref=e129]:
+                - link "로그인" [ref=e130] [cursor=pointer]:
+                  - /url: /login
+              - listitem [ref=e131]:
+                - link "회원가입" [ref=e132] [cursor=pointer]:
+                  - /url: /register
+          - generic [ref=e133]:
+            - heading "리소스" [level=3] [ref=e134]
+            - list [ref=e135]:
+              - listitem [ref=e136]:
+                - link "Next.js 문서" [ref=e137] [cursor=pointer]:
+                  - /url: https://nextjs.org/docs
+              - listitem [ref=e138]:
+                - link "ShadcnUI" [ref=e139] [cursor=pointer]:
+                  - /url: https://ui.shadcn.com
+              - listitem [ref=e140]:
+                - link "TailwindCSS" [ref=e141] [cursor=pointer]:
+                  - /url: https://tailwindcss.com
+        - generic [ref=e142]:
+          - paragraph [ref=e143]: © 2026 NextStarter v0.1.0. All rights reserved.
+          - paragraph [ref=e144]: Built with Next.js & ShadcnUI
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e150] [cursor=pointer]:
+    - img [ref=e151]

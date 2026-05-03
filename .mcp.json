@@ -1,0 +1,19 @@
+{
+  "permissions":{
+    "alloy": ["webSearch","Bach", "WebFetch","mcp__playwright"]
+    ,"deny":[],
+    "ask":[]
+  },
+  "mcpServers": {
+    "playwright": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ],
+      "env": {}
+    }
+  }, 
+  "enabledMcpjsonServers": ["playwright"]
+  , "enableAllProjectMcpServers": true
+}

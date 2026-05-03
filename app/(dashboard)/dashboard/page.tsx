@@ -18,6 +18,8 @@ const recentActivity = [
   { id: 5, user: "최수연", action: "구독 취소", time: "2시간 전", status: "완료" },
 ]
 
+const SKELETON_WIDTHS = [72, 55, 80, 45, 65, 58, 70]
+
 export default function DashboardPage() {
   return (
     <div className="space-y-6">
@@ -85,7 +87,7 @@ export default function DashboardPage() {
                   <Skeleton className="h-4 w-12" />
                   <Skeleton
                     className="h-4 rounded-full"
-                    style={{ width: `${Math.random() * 60 + 20}%` }}
+                    style={{ width: `${SKELETON_WIDTHS[i % SKELETON_WIDTHS.length]}%` }}
                   />
                   <Skeleton className="h-4 w-10" />
                 </div>

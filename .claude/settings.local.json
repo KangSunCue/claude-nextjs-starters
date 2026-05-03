@@ -8,7 +8,13 @@
       "mcp__playwright__browser_navigate",
       "mcp__playwright__browser_console_messages",
       "mcp__playwright__browser_take_screenshot",
-      "Bash(git *)"
+      "Bash(git *)",
+      "Bash(npx eslint *)",
+      "Bash(.\\\\node_modules\\\\.bin\\\\eslint .)",
+      "PowerShell(.\\\\node_modules\\\\.bin\\\\eslint . 2>&1 | Select-Object -First 80)",
+      "Bash(npm install *)",
+      "Bash(npm audit *)",
+      "PowerShell(git add *)"
     ]
   },
   "enableAllProjectMcpServers": true,

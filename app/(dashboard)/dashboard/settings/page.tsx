@@ -1,6 +1,5 @@
 "use client"
 
-import { useState, useEffect } from "react"
 import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { toast } from "sonner"
@@ -25,12 +24,7 @@ import { profileSchema, type ProfileFormValues } from "@/lib/validations/setting
 import { PLACEHOLDER_USER } from "@/lib/constants"
 
 export default function SettingsPage() {
-  const { theme, setTheme } = useTheme()
-  const [mounted, setMounted] = useState(false)
-
-  useEffect(() => {
-    setMounted(true)
-  }, [])
+  const { theme, setTheme, resolvedTheme } = useTheme()
 
   const form = useForm<ProfileFormValues>({
     resolver: zodResolver(profileSchema),
@@ -124,12 +118,12 @@ export default function SettingsPage() {
             {(["light", "dark", "system"] as const).map((t) => (
               <Button
                 key={t}
-                variant={mounted && theme === t ? "default" : "outline"}
+                variant={resolvedTheme !== undefined && theme === t ? "default" : "outline"}
                 size="sm"
                 onClick={() => setTheme(t)}
               >
                 {t === "light" ? "라이트" : t === "dark" ? "다크" : "시스템"}
-                {mounted && theme === t && (
+                {resolvedTheme !== undefined && theme === t && (
                   <Badge variant="secondary" className="ml-2 text-xs">
                     현재
                   </Badge>

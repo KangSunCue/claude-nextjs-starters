@@ -33,6 +33,14 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+# Claude Code: local hook logs and scratch files (may contain secrets)
+.claude/hooks/hook.log
+hook-test.txt
+hooks.txt
+hooks2.txt
+hooks3.txt
+hooks4.txt
+
 # vercel
 .vercel
 

@@ -20,5 +20,6 @@
   "enableAllProjectMcpServers": true,
   "enabledMcpjsonServers": [
     "playwright"
-  ]
+  ],
+  "spinnerTipsEnabled": false
 }

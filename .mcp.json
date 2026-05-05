@@ -1,9 +1,4 @@
 {
-  "permissions":{
-    "alloy": ["webSearch","Bach", "WebFetch","mcp__playwright"]
-    ,"deny":[],
-    "ask":[]
-  },
   "mcpServers": {
     "playwright": {
       "type": "stdio",
@@ -12,8 +7,24 @@
         "@playwright/mcp@latest"
       ],
       "env": {}
+    },
+    "context7": {
+      "type": "http",
+      "url": "https://mcp.context7.com/mcp"
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    },
+    "shadcn": {
+      "command": "npx",
+      "args": [
+        "shadcn@latest",
+        "mcp"
+      ]
     }
-  }, 
-  "enabledMcpjsonServers": ["playwright"]
-  , "enableAllProjectMcpServers": true
+  }
 }
